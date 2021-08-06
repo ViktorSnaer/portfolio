@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viktor Snaer</title>
+    <link rel="shortcut icon" href="/public/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/91dd1bd402.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="../index.html">
+          <img src="/public/img/logo_crop-min.png" class="nav-logo"
+        />
+      </a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#about-me" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#my-work" class="nav-link">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="#stack" class="nav-link">Stack</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <section class="top-section">
+      <div class="center">
+        <h1 class="greating">Hi, I'm Viktor Snaer</h1>
+        <p class="typing">and I am a web developer.</p>
+      </div>
+    </section>
+    <div class="alignment">
+      <section class="about-me" id="about-me">
+        <div class="viktor-card">
+          <img class="profile-img" src="/public/img/profile-black-min.png" />
+          <p class="about-text">
+            I'm a self-taught web developer with a focus on front-end development. 
+            I am experienced in HTML, CSS, JavaScript, as well as frameworks such as “react” and “next.js”. I am familiar with firebase and some back-end development as well. 
+            
+            Something I pride myself on as a developer is my ability to adapt to new variables while honing my design skills. I have a flexible work schedule and am able to manage my time accordingly.
+          </p>
+        </div>
+      </section>
+
+      <section class="projects" id="my-work">
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+          <ul class="project-overview left slide-in">
+            <li class="project-name">
+              <a href="http://beyondthebedroomgames.com" target='_blank' class="project-link"><strong>Beyond the Bedroom Games</strong></a>
+            </li>
+            <li class="project-description">
+              I developed this game as a interactive way to showcase a sex educator’s content as a date night activity. I developed this site using “next.js”, and the site is responsive. All of the game’s questions are stored in a database and are fetched and randomized. 
+            </li>
+            <li class="project-tec">next.js firebase</li>
+          </ul>
+          <a href="http://beyondthebedroomgames.com" target='_blank' class="project-link">
+          <img
+            src="/public/img/bbg-link-port.png"
+            alt="Beyond the Bedroom link"
+            class="project-img right slide-in"
+          />
+        </a>
+        </div>
+        <!-- PROJECT 2 -->
+        <div class="project-card project-even">
+          <a href="http://grofuleiga.is" target="_blank" class="project-link">
+          <img
+            src="/public/img/grofuleiga.png"
+            alt="Beyond the Bedroom link"
+            class="project-img left slide-in"
+          />
+        </a>
+          <ul class="project-overview right slide-in">
+            <li class="project-name">
+              <a href="http://grofuleiga.is" target="_blank" class="project-link">
+              <strong>grofuleiga.is</strong>
+            </a>
+            </li>
+            <li class="project-description">
+              I used “react” to develop this site, which was designed for a rental excavation company. I modernized the site to be responsive and adaptable for different screen sizes. This project already had a site which I updated the user experience along with the visuals, as per the client’s request to keep it simple. 
+            </li>
+            <li class="project-tec">react</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="tech-stack" id="stack">
+        <h3>My Tech-stack</h3>
+        <div class="tech-img">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js-square"></i>
+          <i class="fab fa-node"></i>
+        </div>
+        <p>HTML, CSS, JAVASCRIPT, NODE.JS</p>
+
+        <p>Frameworks: REACT, NEXT.JS, FIREBASE</p>
+      </section>
+
+      <!-- Alignment end -->
+      <footer class="footer">
+        <p class="github"><a href="http://github.com/ViktorSnaer"><i class="fab fa-github"></i></a></i></p>
+        <p><a href="mailto:viktorsnaer.web@gmail.com">viktorsnaer.web@gmail.com</a></p>
+        <p>location: Reykjavik Iceland GMT:0</p>
+        <p><a class="contact-link" href="pages/contact.html">Contact Me</a></p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
