@@ -20,6 +20,8 @@ html {
 body {
   /* prevents side scrolling */
   overflow-x: hidden;
+  max-width: 1440px;
+  margin: auto;
 }
 li {
   list-style: none;
@@ -57,7 +59,7 @@ a {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 5rem;
+    top: 10rem;
     flex-direction: column;
     width: 100%;
     border-radius: 10px;
@@ -380,7 +382,13 @@ a {
 
 .project-img {
   height: 30rem;
+  width: 50rem;
   border-radius: 5px;
+  object-fit: cover;
+}
+
+.project-img-mobile {
+  display: none;
 }
 
 .project-name {
@@ -395,6 +403,7 @@ a {
 @media (max-width: 1300px) {
   .project-img {
     height: 22vw;
+    width: 37vw;
   }
 
   .project-name {
@@ -411,9 +420,13 @@ a {
 
 @media (max-width: 768px) {
   .project-img {
-    width: 93%;
-    height: 25rem;
-    object-fit: cover;
+    display: none;
+  }
+  /* image screenshot iphone x */
+  .project-img-mobile {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
   }
 
   .project-name {
@@ -421,7 +434,7 @@ a {
   }
 
   .project-description {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .project-tec {
@@ -545,7 +558,7 @@ a {
   }
 }
 .center-contact {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
