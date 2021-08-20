@@ -104,6 +104,7 @@ a {
 .nav-logo {
   position: relative;
   height: 9rem;
+  margin-top: 4rem;
 }
 
 .hamburger {
@@ -112,7 +113,7 @@ a {
 @media (max-width: 768px) {
   .nav-logo {
     height: 8rem;
-    margin-top: 5rem;
+    margin: 5rem 0 0 0.5rem;
   }
 
   .hamburger {
@@ -240,7 +241,7 @@ a {
 
 @media (max-width: 768px) {
   .alignment {
-    width: 100%;
+    width: 80%;
     margin: auto;
   }
 }
@@ -289,6 +290,11 @@ a {
   flex-direction: row;
   padding-bottom: 20rem;
 }
+@media (max-width: 768px) {
+  .about-me {
+    padding-bottom: 5rem;
+  }
+}
 
 .viktor-card {
   display: flex;
@@ -304,7 +310,7 @@ a {
 
 .profile-img {
   height: 40rem;
-  margin: 0rem;
+  margin: 0 2rem;
   border-radius: 5px;
 }
 
@@ -312,7 +318,7 @@ a {
   .profile-img {
     object-fit: cover;
     margin: 0 auto;
-    width: 95%;
+    width: 80%;
   }
 }
 
@@ -341,9 +347,9 @@ a {
 @media (max-width: 768px) {
   .about-text {
     text-align: center;
-    width: 90%;
+    width: 80%;
     font-size: 1.6rem;
-    margin: auto;
+    margin: 4rem auto;
   }
 }
 
@@ -363,6 +369,7 @@ a {
 @media (max-width: 768px) {
   .project-card {
     flex-direction: column;
+    width: 80%;
   }
 
   .project-even {
@@ -385,6 +392,22 @@ a {
   width: 50rem;
   border-radius: 5px;
   object-fit: cover;
+  margin: 0 2rem;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: 1s ease-in-out;
+  -moz-filter: grayscale(100%);
+  -moz-transition: 1s ease-in-out;
+  -o-filter: grayscale(100%);
+  -o-transition: 1s ease-in-out;
+}
+
+.project-img:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: 1s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: 1s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: 1s ease-in-out;
 }
 
 .project-img-mobile {
@@ -427,6 +450,8 @@ a {
     display: inline-block;
     width: 100%;
     margin: auto;
+    border-radius: 5px;
+    margin-top: 2rem;
   }
 
   .project-name {
@@ -471,6 +496,8 @@ a {
 @media (max-width: 768px) {
   .tech-stack {
     font-size: 4vw;
+    height: fit-content;
+    margin: 0 0 10rem 0;
   }
 
   .tech-img {
