@@ -241,7 +241,7 @@ a {
 
 @media (max-width: 768px) {
   .alignment {
-    width: 80%;
+    width: 90%;
     margin: auto;
   }
 }
@@ -318,7 +318,7 @@ a {
   .profile-img {
     object-fit: cover;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -347,7 +347,7 @@ a {
 @media (max-width: 768px) {
   .about-text {
     text-align: center;
-    width: 80%;
+    width: 90%;
     font-size: 1.6rem;
     margin: 4rem auto;
   }
@@ -369,7 +369,7 @@ a {
 @media (max-width: 768px) {
   .project-card {
     flex-direction: column;
-    width: 80%;
+    width: 90%;
   }
 
   .project-even {
